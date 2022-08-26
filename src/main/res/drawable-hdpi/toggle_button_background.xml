@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+  <item android:drawable="@drawable/ic_start_radio" android:state_checked="false" >
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:drawable="@drawable/ic_start_radio"
+        android:scaleHeight="20%"
+        android:scaleWidth="20%"/>
+  </item>
+  <item android:drawable="@drawable/ic_stop_radio" android:state_checked="true">
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:drawable="@drawable/ic_stop_radio"
+        android:scaleHeight="20%"
+        android:scaleWidth="20%"/>
+  </item>
+
+</selector>

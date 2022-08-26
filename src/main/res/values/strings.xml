@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ShansonRadio</string>
+    <!-- ссылка на сервер радио -->
+    <string name="radio_shanson_server">http://www.amaximapps.com/bcr/Configbcrios.plist</string>
+
+    <!---channel-->
+    <string name="chanson1">Шансон</string>
+    <string name="chanson24">24</string>
+    <string name="portal">Портал</string>
+    <string name="lirika">Лирика</string>
+    <string name="dusha">Душа</string>
+    <string name="chanson2">Мама</string>
+    <string name="bardy">Барды</string>
+    <string name="rosenbaum">Розенбаум</string>
+    <string name="vysotsky">Высоцкий</string>
+    <string name="mihailov">Михайлов</string>
+    <string name="krug">Круг</string>
+    <string name="leps">Лепс</string>
+
+
+    <!--Timer-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="best_shanson">ЛУЧШЕЕ ШАНСОН РАДИО</string>
+
+    <string name="turn_on_alarm">Старт</string>
+    <string name="turn_off_alarm">Выкл</string>
+    <string name="date_alarm">Дата</string>
+    <string name="time_alarm">Время</string>
+    <string name="shanson">Shanson</string>
+    <string name="copyright_2018_amaxim_apps_4_1_0">Copyright © 2018 Amaxim Apps (1.0.1)</string>
+    <string name="hi_fi">Лучшее Русское Радио HI-FI</string>
+    <string name="support">support</string>
+    <string name="amaxim">amaxim</string>
+    <string name="email">email</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="odessamama">Одесса-мама</string>
+    <string name="image_shanson">шансон_картинка</string>
+    <string name="timer_sleep21">Таймер сна</string>
+    <string name="timer_sleep">Таймер сна</string>
+    <string name="shansonimg">ShansonImg</string>
+
+
+</resources>

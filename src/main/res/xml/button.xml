@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="chanson1">Шансон</item>
+    <item name="chanson24">24</item>
+    <item name="portal">Портал</item>
+    <item name="lirika">Лирика</item>
+    <item name="dusha">Песни о душе</item>
+    <item name="chanson2">Одесса-мама</item>
+    <item name="bardy">Барды</item>
+    <item name="rosenbaum">А.Розенбаум</item>
+    <item name="vysotsky">В.Высоцкий</item>
+    <item name="mihailov">С.Михайлов</item>
+    <item name="krug">М.Круг</item>
+    <item name="leps">Г.Лепс</item>
+</resources>

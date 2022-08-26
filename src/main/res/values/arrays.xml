@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Список кнопок таймера -->
+
+
+    <!-- Список радиоканалов -->
+    <string-array name="channel_names">
+        <item>@string/chanson1</item>
+        <item>@string/chanson24</item>
+        <item>@string/portal</item>
+        <item>@string/lirika</item>
+        <item>@string/dusha</item>
+        <item>@string/chanson2</item>
+        <item>@string/bardy</item>
+        <item>@string/rosenbaum</item>
+        <item>@string/vysotsky</item>
+        <item>@string/mihailov</item>
+        <item>@string/krug</item>
+        <item>@string/leps</item>
+    </string-array>
+
+    <!-- адреса радиоканалов -->
+
+
+
+
+</resources>

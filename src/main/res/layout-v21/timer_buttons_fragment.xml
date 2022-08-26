@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arb="http://schemas.android.com/apk/res-auto"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/timer_button_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="80dp">
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/timer_segmented_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:elevation="0dp"
+            android:orientation="horizontal"
+            arb:sc_tint_color="@color/shanson2"
+            segmentedgroup:sc_border_width="1dp"
+            segmentedgroup:sc_checked_text_color="@color/radio_button_selected_color"
+            segmentedgroup:sc_corner_radius="5dp">
+
+
+            <RadioButton
+                android:id="@+id/button30"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="false"
+                android:elevation="0dp"
+                android:state_pressed="true"
+                android:text="30 мин"
+                android:textIsSelectable="false" />
+
+            <RadioButton
+                android:id="@+id/button60"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:state_pressed="true"
+                android:text="60 мин" />
+
+            <RadioButton
+                android:id="@+id/button90"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:state_pressed="true"
+                android:text="90 мин" />
+
+
+            <RadioButton
+                android:id="@+id/button120"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:state_pressed="true"
+                android:text="120 мин" />
+
+            <RadioButton
+                android:id="@+id/buttonOff"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:state_pressed="true"
+                android:text="Выкл" />
+
+
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </RelativeLayout>
+</LinearLayout>
